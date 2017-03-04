@@ -5,6 +5,8 @@
 
 'use strict';
 
+const InvalidTypeError = require('./errorHandling/invalidTypeError');
+
 /**
  *  Executes the generator function and returns the value
  * @param {generatorfunction} generator
@@ -45,7 +47,7 @@ function wrap(fn) {
   }
   if(isFunction(fn))
     return fn;
-  throw new Error('Value passed is of type ' +typeof fn +'. Is not a generator function');
+  throw new InvalidTypeError('Value passed is of type ' +typeof fn +'. It Is not a generator function');
 }
 
 function isGeneratorFunction(fn) {
