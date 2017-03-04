@@ -50,5 +50,12 @@ describe('#Tesing Generator Djinn', function() {
     expect(gDjinn(someFunction)).to.to.be.function;
   });
 
+  it('It should return value upon Generator function execution', function() {
+    let gDjinn      = genDjinn;
+    let someFunction = function* () {let num =yield 2; return num};
+    expect(gDjinn(someFunction)()).to.be.Number;
+    expect(gDjinn(someFunction)()).to.equal(2);
+  });
+
 
 });
