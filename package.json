@@ -1,0 +1,40 @@
+{
+  "name": "djinn",
+  "version": "1.0.0",
+  "description": "It utility tool for wrapping generators for complete executiong without calling next everytime.",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --reporter spec"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rohail1/gen-djinn.git"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "node.js",
+    "generators",
+    "wrappers",
+    "functions",
+    "yield",
+    "javascript",
+    "es6"
+  ],
+  "engines": {
+    "node": ">=6.8.4"
+  },
+  "author": "Rohail Najam <rohail@lumous.pk> (http://lumous.pk)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Rohail1/gen-djinn/issues"
+  },
+  "homepage": "https://github.com/Rohail1/gen-djinn#readme",
+  "dependencies": {
+  },
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^3.2.0",
+    "sinon": "^1.17.7"
+  }
+}
