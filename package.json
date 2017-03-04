@@ -1,5 +1,5 @@
 {
-  "name": "djinn",
+  "name": "gen-djinn",
   "version": "1.0.0",
   "description": "It utility tool for wrapping generators for complete executiong without calling next everytime.",
   "main": "index.js",
