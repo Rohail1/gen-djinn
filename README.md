@@ -1,5 +1,5 @@
 # generator-wrapper
-It utility tool for wrapping generators for complete executiong without calling next everytime.
+It's utility for wrapping generators for complete executiong without calling next everytime.
 ##Installation
 
 `npm install gen-djinn --save`
